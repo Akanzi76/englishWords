@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English_Words</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English_Words</h1>
+        <form id="addForm">
+            <input type="text" id="eng_Write" name="eng_Write" placeholder="eng_Write">
+            <input type="text" id="tr_Write" name="tr_Write" placeholder="tr_Write">
+            <input type="text" id="eng_Read" name="eng_Read" placeholder="eng_Read">
+            <button type="button" onclick="addData()">Add Data</button>
+        </form>
+        <button onclick="queryData()">Query All Data</button>
+        <button onclick="randomQuery()">Query Random Data</button>
+        <div id="randomResult"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="Man-SWork.js"></script>
+</body>
+</html>
